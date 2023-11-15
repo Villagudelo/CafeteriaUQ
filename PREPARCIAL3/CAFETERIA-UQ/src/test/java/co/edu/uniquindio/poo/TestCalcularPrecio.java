@@ -22,7 +22,7 @@ public class TestCalcularPrecio {
     public void calcularPrecioProducto() { // TEST PARA LOS CLIENTES QUE SON PROFESORES
         LOG.info("Iniciado test calcularPrecioProducto");
 
-        Cafeteria cafeteria = new Cafeteria("Los Pollos");
+        Cafeteria cafeteria = new Cafeteria("CafeteriaUQ");
         var cliente1 = new ClienteEstudiante("93928103", "Jorge", "Pelaez", "jorge@gmail.com", 2);
         var cliente2 = new ClienteProfesor("93928103", "Jorge", "Pelaez", "jorge@gmail.com", TipoProfesor.ASISTENTE);
 
